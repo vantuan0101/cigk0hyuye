@@ -17,6 +17,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.version>17</java.version>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
 
     <apt-maven-plugin-version>1.1.3</apt-maven-plugin-version>
 
@@ -30,8 +32,6 @@
     <guava.version>LATEST</guava.version>
     <java-jwt.version>LATEST</java-jwt.version>
     <validation-api.version>2.0.1.Final</validation-api.version>
-    <maven.compiler.source>20</maven.compiler.source>
-    <maven.compiler.target>20</maven.compiler.target>
   </properties>
 
   <dependencies>
